@@ -72,14 +72,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2755" />
-          <entry key="txt" value="270" />
+          <entry key="html" value="2776" />
+          <entry key="txt" value="347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2717" />
-          <entry key="PLAIN_TEXT" value="270" />
+          <entry key="HTML" value="2738" />
+          <entry key="PLAIN_TEXT" value="347" />
           <entry key="Scratch" value="38" />
         </counts>
       </usages-collector>
@@ -92,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -189,7 +189,7 @@
       <workItem from="1537798366501" duration="132000" />
       <workItem from="1537899833645" duration="82000" />
       <workItem from="1537976559523" duration="4380000" />
-      <workItem from="1537984040741" duration="5538000" />
+      <workItem from="1537984040741" duration="5648000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -275,11 +275,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537989726694</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Moved bucky logo">
+      <created>1537989885178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1537989885178</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Remove Break, previous commit was to move logo">
+      <created>1537989938443</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1537989938443</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18266000" />
+    <option name="totallyTimeSpent" value="18376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -339,7 +353,9 @@
     <MESSAGE value="added required underlines and italics." />
     <MESSAGE value="Improve readability in tables." />
     <MESSAGE value="Add Comment to yearbook preview window / remove preview window because of doxxing concerns." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Comment to yearbook preview window / remove preview window because of doxxing concerns." />
+    <MESSAGE value="Moved bucky logo" />
+    <MESSAGE value="Remove Break, previous commit was to move logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove Break, previous commit was to move logo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asn1/details.html" />
@@ -387,8 +403,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="165">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
     </entry>
