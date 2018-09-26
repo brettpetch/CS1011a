@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="Improve readability in tables.">
       <change beforePath="$PROJECT_DIR$/bpetch_CS1011_webpage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/bpetch_CS1011_webpage2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -72,14 +71,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2672" />
-          <entry key="txt" value="132" />
+          <entry key="html" value="2717" />
+          <entry key="txt" value="170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2634" />
-          <entry key="PLAIN_TEXT" value="132" />
+          <entry key="HTML" value="2679" />
+          <entry key="PLAIN_TEXT" value="170" />
           <entry key="Scratch" value="38" />
         </counts>
       </usages-collector>
@@ -92,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2366">
+            <state relative-caret-position="-2242">
               <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding>
                 <element signature="e#2095#2101#0" expanded="true" />
@@ -105,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="75" column="175" selection-start-line="75" selection-start-column="175" selection-end-line="75" selection-end-column="175" />
+            <state relative-caret-position="1914">
+              <caret line="92" column="146" selection-start-line="92" selection-start-column="146" selection-end-line="92" selection-end-column="146" />
             </state>
           </provider>
         </entry>
@@ -202,7 +201,7 @@
       <workItem from="1537798366501" duration="132000" />
       <workItem from="1537899833645" duration="82000" />
       <workItem from="1537976559523" duration="4380000" />
-      <workItem from="1537984040741" duration="4740000" />
+      <workItem from="1537984040741" duration="5258000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -267,19 +266,27 @@
       <option name="project" value="LOCAL" />
       <updated>1537988913603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added required underlines and italics.">
+      <created>1537989101545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537989101545</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17468000" />
+    <option name="totallyTimeSpent" value="17986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -328,7 +335,8 @@
     <MESSAGE value="improve readability" />
     <MESSAGE value="start commenting" />
     <MESSAGE value="added required underlines and italics." />
-    <option name="LAST_COMMIT_MESSAGE" value="added required underlines and italics." />
+    <MESSAGE value="Improve readability in tables." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve readability in tables." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asn1/details.html" />
@@ -369,7 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2366">
+        <state relative-caret-position="-2242">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding>
             <element signature="e#2095#2101#0" expanded="true" />
@@ -380,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="75" column="175" selection-start-line="75" selection-start-column="175" selection-end-line="75" selection-end-column="175" />
+        <state relative-caret-position="1914">
+          <caret line="92" column="146" selection-start-line="92" selection-start-column="146" selection-end-line="92" selection-end-column="146" />
         </state>
       </provider>
     </entry>
