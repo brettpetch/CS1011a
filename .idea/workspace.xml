@@ -72,14 +72,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="2484" />
-          <entry key="txt" value="75" />
+          <entry key="html" value="2610" />
+          <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="2446" />
-          <entry key="PLAIN_TEXT" value="75" />
+          <entry key="HTML" value="2572" />
+          <entry key="PLAIN_TEXT" value="91" />
           <entry key="Scratch" value="38" />
         </counts>
       </usages-collector>
@@ -89,18 +89,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="515">
+              <caret line="80" column="197" selection-start-line="80" selection-start-column="197" selection-end-line="80" selection-end-column="197" />
+              <folding>
+                <element signature="e#2095#2101#0" expanded="true" />
+                <element signature="e#5333#5339#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google4c4290c5c61709f0.html">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -108,19 +107,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-526">
               <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-              <folding>
-                <element signature="e#2095#2101#0" expanded="true" />
-                <element signature="e#5333#5339#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -216,7 +202,7 @@
       <workItem from="1537798366501" duration="132000" />
       <workItem from="1537899833645" duration="82000" />
       <workItem from="1537976559523" duration="4380000" />
-      <workItem from="1537984040741" duration="3632000" />
+      <workItem from="1537984040741" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -253,11 +239,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537987605757</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="improve readability">
+      <created>1537987952017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537987952017</updated>
+    </task>
+    <task id="LOCAL-00007" summary="start commenting">
+      <created>1537988069019</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537988069019</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16360000" />
+    <option name="totallyTimeSpent" value="17191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -312,7 +312,8 @@
     <MESSAGE value="edit tables. clean up." />
     <MESSAGE value="updare workspace" />
     <MESSAGE value="improve readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve readability" />
+    <MESSAGE value="start commenting" />
+    <option name="LAST_COMMIT_MESSAGE" value="start commenting" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asn1/details.html" />
@@ -341,15 +342,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/google4c4290c5c61709f0.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/google4c4290c5c61709f0.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage2.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -360,8 +361,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="515">
+          <caret line="80" column="197" selection-start-line="80" selection-start-column="197" selection-end-line="80" selection-end-column="197" />
           <folding>
             <element signature="e#2095#2101#0" expanded="true" />
             <element signature="e#5333#5339#0" expanded="true" />
