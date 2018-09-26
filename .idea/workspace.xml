@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bpetch_CS1011_webpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/bpetch_CS1011_webpage1.html" afterDir="false" />
-    </list>
+    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -55,31 +52,32 @@
     <session id="-2002687512">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="7" />
+          <entry key="html" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
+          <entry key="HTML" value="6" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="2776" />
-          <entry key="txt" value="347" />
+          <entry key="txt" value="408" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="2738" />
-          <entry key="PLAIN_TEXT" value="347" />
+          <entry key="PLAIN_TEXT" value="408" />
           <entry key="Scratch" value="38" />
         </counts>
       </usages-collector>
@@ -88,17 +86,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,7 +177,7 @@
       <workItem from="1537798366501" duration="132000" />
       <workItem from="1537899833645" duration="82000" />
       <workItem from="1537976559523" duration="4380000" />
-      <workItem from="1537984040741" duration="5648000" />
+      <workItem from="1537984040741" duration="5698000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -289,15 +277,21 @@
       <option name="project" value="LOCAL" />
       <updated>1537989938443</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Change from Notable People to Notable Personalities">
+      <created>1537989986123</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1537989986123</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18376000" />
+    <option name="totallyTimeSpent" value="18426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -355,7 +349,8 @@
     <MESSAGE value="Add Comment to yearbook preview window / remove preview window because of doxxing concerns." />
     <MESSAGE value="Moved bucky logo" />
     <MESSAGE value="Remove Break, previous commit was to move logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove Break, previous commit was to move logo" />
+    <MESSAGE value="Change from Notable People to Notable Personalities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change from Notable People to Notable Personalities" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asn1/details.html" />
@@ -396,15 +391,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1995">
+        <state relative-caret-position="299">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bpetch_CS1011_webpage1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="1291">
+          <caret line="62" column="63" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
         </state>
       </provider>
     </entry>
