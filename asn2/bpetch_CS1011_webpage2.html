@@ -1,21 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>BP Bradford District High School | Details</title>
-    </head>
+<head>
+    <title>Brett Petch</title>
+    <meta charset="UTF-8">
+    <!--Import Stylesheeet-->
+    <link rel="stylesheet" href="src/css/style.css">
+    <!--Introduce Meta-->
+    <meta name="description" content="the 'first' site">
+    <meta name="keywords" content="HTML,CSS,Brett,Petch">
+    <meta name="author" content="Brett Petch">
+    <!--Facebook / Google Meta-->
+    <meta property="og:title" content="Brett Petch">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://publish.uwo.ca/~bpetch/index.html">
+    <!--Import Favico-->
+    <meta property="og:image" content="http://publish.uwo.ca/~bpetch/img/bpetch.png>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45906012-8">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-45906012-8');
+    </script>
+    <!-- Import Font for Fancy Logos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--Set default styles-->
+    <style>
+        body{ font: 14px sans-serif; }
+    </style>
+</head>
     <body>
-    <h1 align="center">Brett Petch's High School</h1>
-    <hr />
-    <h3>Navigation</h3>
-    <nav>
-        <ul type="square">
-            <li><a href="bpetch_CS1011_webpage1.html">Home</a></li>
-            <li><a href="bpetch_CS1011_webpage2.html">Details</a></li>
-            <li><a href="index.html">Index</a></li>
-            <li><a href="http://bdh.scdsb.on.ca/" target="_blank">Website</a></li>
+    <header class="page-header">
+        <div class="header-content">
+            <h1 class="project-name">Brett Petch's High School</h1>
+            <h2 class="project-tagline">Bradford District High School</h2>
+            <div align="center">
+                <a class="btn" href="https://twitter.com/bret7600">
+                    <i class="fab fa-twitter"></i>
+                    <div>Twitter</div>
+                </a>
+                <a class="btn" href="https://github.com/brettpetch">
+                    <i class="fab fa-github"></i>
+                    <div>GitHub</div>
+                </a>
+                <a class="btn" href="https://www.facebook.com/brett.j.petch">
+                    <i class="fab fa-facebook"></i>
+                    <div>Facebook</div>
+                </a>
+                <a class="btn" href="https://www.instagram.com/brettjpetch">
+                    <i class="fab fa-instagram"></i>
+                    <div>Instagram</div>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav class="sidenav">
+        <img src="bpetch2.svg" style="filter: invert(1);"/>
+        <ul type="none">
+            <li>
+                <a href="bpetch_CS1011_webpage1.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="bpetch_CS1011_webpage2.html">
+                    Details
+                </a>
+            </li>
+            <li>
+                <a href="../index.html">
+                    Index
+                </a>
+            </li>
+            <li>
+                <a href="http://bdh.scdsb.on.ca/" target="_blank">
+                    Website
+                </a>
+            </li>
         </ul>
     </nav>
+    <section class="main main-content">
         <h3>Fun Facts</h3>
         <ol>
             <li>
@@ -25,20 +91,20 @@
             <li>I was the school photographer on multiple occasions, as seen in the photos below.</li>
         </ol>
 
-        <table border="1" align="center" width="75%">
+        <table border="1" align="center">
             <caption><h3>Events at <i>Bradford District High School</i></h3></caption>
             <tr>
-                <th width="8%">Event</th>
-                <th width="8%">Date</th>
-                <th width="49%">Photo</th>
-                <th width="35%">Description</th>
+                <th class="th-event-date">Event</th>
+                <th class="th-event-date">Date</th>
+                <th width="th-pics">Photo</th>
+                <th width="th-desc">Description</th>
             </tr>
             <tr>
                 <td><a name="SchoolBBQ">School BBQ</a></td>
                 <td>June 2018</td>
                 <td>
-                    <a href="img/bbq.jpg">
-                        <img alt="bbq" src="img/bbq.jpg" title="BBQ at Bradford District High School" />
+                    <a href="../img/bbq.jpg">
+                        <img alt="bbq" src="../img/bbq.jpg" title="BBQ at Bradford District High School" />
                     </a>
                     <figure><a href="finishedsite/index.html">&copy; 2018 Brett Petch</a></figure>
                 </td>
@@ -54,11 +120,11 @@
                 </td>
                 <td>May 2018</td>
                 <td>
-                    <a href="img/colourrun1.jpg">
-                        <img alt="colour run" src="img/colourrun1.jpg" title="Colour Run at Bradford District High School" />
+                    <a href="../img/colourrun1.jpg">
+                        <img alt="colour run" src="../img/colourrun1.jpg" title="Colour Run at Bradford District High School" />
                     </a>
                     <figure>
-                        <a href="finishedsite/index.html">&copy; 2018 Brett Petch</a>
+                        <a href="../finishedsite/index.html">&copy; 2018 Brett Petch</a>
                     </figure>
                 </td>
                 <td>
@@ -72,11 +138,11 @@
                 </td>
                 <td>May 2018</td>
                 <td>
-                    <a href="img/springfling1.jpg">
-                        <img alt="spring fling" title="Spring Fling at Bradford District High School" src="img/springfling1.jpg" />
+                    <a href="../img/springfling1.jpg">
+                        <img alt="spring fling" title="Spring Fling at Bradford District High School" src="../img/springfling1.jpg" />
                     </a>
                     <figure>
-                        <a href="finishedsite/index.html">&copy; 2018 Brett Petch</a>
+                        <a href="../finishedsite/index.html">&copy; 2018 Brett Petch</a>
                     </figure>
                 </td>
                 <td>
@@ -89,11 +155,11 @@
                 </td>
                 <td>April 2018</td>
                 <td>
-                    <a href="img/skills.jpg">
-                        <img alt="skills" title="SCDSB Skills at Bear Creek, competing for Bradford District High School" src="img/skills.jpg" />
+                    <a href="../img/skills.jpg">
+                        <img alt="skills" title="SCDSB Skills at Bear Creek, competing for Bradford District High School" src="../img/skills.jpg" />
                     </a>
                     <figure>
-                        <a href="finishedsite/index.html">&copy; 2018 Brett Petch</a>
+                        <a href="../finishedsite/index.html">&copy; 2018 Brett Petch</a>
                     </figure>
                 </td>
                 <td>
@@ -107,8 +173,7 @@
                 </td>
                 <td>March 2018</td>
                 <td>
-                    <iframe width="500" height="300" src="https://www.youtube-nocookie.com/embed/S8EdM25GmLg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    <figure>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S8EdM25GmLg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>                    <figure>
                         <a href="finishedsite/index.html">&copy; 2018 Brett Petch</a>
                     </figure>
                 </td>
@@ -120,6 +185,7 @@
             </tr>
         </table>
         <hr />
+    </section>
     <footer>
         <p align="right">
             <a href="finishedsite/index.html" target="_blank">
