@@ -1,22 +1,18 @@
+/*
+
+ */
 /*! Import fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
 }
+
 * {
     box-sizing: border-box;
 }
-$body-bg : #fefefe;
-$hero-bg : linear-gradient(rgba(255, 0, 0, .3), rgba(5, 8, 121, 0.4)) no-repeat;
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
 
-article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,summary {
     display: block
 }
 
@@ -194,6 +190,7 @@ td,th {
 .highlight table pre {
     margin: 0
 }
+
 * {
     box-sizing: border-box
 }
@@ -215,15 +212,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-%hero {
-     width: 100%;
-     position: relative;
-     background-size: cover;
-     /* background: $ hero-bg linear-gradient(rgba(255, 0, 0, .3), rgba(5, 8, 121, 0.4)) no-repeat;*/
-
- }
 .page-header:before {
     background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg");
     background-size: cover;
@@ -232,57 +220,68 @@ a:hover {
     top: 0;
     height: 100%;
     width: 100%;
-    display: block;
     content: " ";
-    z-index: 0;
-
+    z-index: -1;
 }
-.page-header:hover{
+
+.page-header:hover {
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
     -o-filter: blur(0px);
     -ms-filter: blur(0px);
     filter: blur(0px);
     transition: 0.3s;
-
 }
+
 .page-header {
+    max-height: 300px;
     height: 90%;
     background: #333 no-repeat center center;
+    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg");
+    background: linear-gradient(to bottom right, rgba(137, 0, 0, 0.6), rgba(0, 0, 128, 0.6));
+    background-size: cover;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    z-index: 0;
     transition-duration: .3s;
 }
-.page-header:before{
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+
+.page-header:before {
+    max-height: 300px;
+    -webkit-filter: blur(5px) grayscale(100%);
+    -moz-filter: blur(5px) grayscale(100%);
+    -o-filter: blur(5px) grayscale(100%);
+    -ms-filter: blur(5px) grayscale(100%);
+    filter: blur(5px) grayscale(100%);
+    background-size: cover;
     transition: 0.3s;
 }
+
 .page-header:hover::before {
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
+    max-height: 300px;
+    -webkit-filter: blur(0px) grayscale(100%);
+    -moz-filter: blur(0px) grayscale(100%);
+    -o-filter: blur(0px) grayscale(100%);
+    -ms-filter: blur(0px) grayscale(100%);
+    filter: blur(0px) grayscale(100%);
+    opacity: .5;
     transition: 0.3s;
 }
+
 .header-content {
-@include align();
-    position:relative;
+    position: relative;
     width: 80%;
     margin: 0 auto;
     text-align: center;
     z-index: 0;
-    /*   -webkit-filter: blur(5px);
+    /*
+    Don't even try to activate this. you'll blow something up
+    -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);*/
 }
+
 /*.header-content::hover {
     -webkit-filter: blur(0px);
     -moz-filter: blur(0px);
@@ -314,6 +313,7 @@ a:hover {
     margin-bottom: 0.1rem;
     color: #FFFFFF;
 }
+
 @media screen and (min-width: 64em) {
     .project-name {
         font-size:3.25rem;
@@ -358,7 +358,7 @@ a:hover {
 }
 
 .main-content {
-    word-wrap: break-word
+    word-wrap: break-word;
 }
 
 .main-content :first-child {
@@ -373,11 +373,15 @@ a:hover {
         font-size: 1.1rem
     }
 }
+
 @media screen and (min-width: 70em) {
     .main-content {
         max-width:84rem;
         padding: 4rem 4rem 4rem 12rem;
-        margin: 0, auto, 12rem, 2rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 2rem;
+        margin-bottom: 12rem;
         font-size: 1.1rem
     }
 }
@@ -385,7 +389,7 @@ a:hover {
 @media screen and (min-width: 32em) and (max-width: 64em) {
     .main-content {
         max-width: 40rem;
-        padding:1rem 4rem;
+        padding: 1rem 4rem;
         font-size: 1.1rem;
     }
 }
@@ -393,7 +397,7 @@ a:hover {
 @media screen and (max-width: 42em) {
     .main-content {
         max-width: 20em;
-        padding:2rem 1rem;
+        padding: 2rem 1rem;
         font-size: 1rem
     }
 }
@@ -587,6 +591,7 @@ a:hover {
     background-color: #eff0f1;
     border: 0
 }
+
 @media screen and (min-width: 88em) {
     .th-event-date {
         width: 5%;
@@ -600,12 +605,13 @@ a:hover {
         width: 55%
     }
 }
+
 @media screen and (min-width: 32em) and (max-width: 64em) {
     .th-event-date {
         width: 2%;
     }
 
-    img .th-pics  {
+    img .th-pics {
         width: 15%;
     }
 
@@ -614,10 +620,9 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 8em) and (max-width: 32)
-    .th-event-date {
-        width: 2%;
-    }
+@media screen and (min-width: 8em) and (max-width: 32) .th-event-date {
+    width: 2%;
+}
 
     img .th-pics {
         width: 10%;
@@ -627,8 +632,6 @@ a:hover {
         width: 10%
     }
 }
-
-
 
 .site-footer {
     padding-top: 2rem;
@@ -662,6 +665,7 @@ a:hover {
 .site-footer-credits {
     color: #819198
 }
+
 .head-sm {
     padding: 25px 25px 0px 0px;
     color: #ffffff;
@@ -679,14 +683,21 @@ a:hover {
 
 /* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 250px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0px; /* Stay at the top */
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 250px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0px;
+    /* Stay at the top */
     left: 0;
-    background-color: #050879; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: #050879;
+    /* Blue */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
     padding-top: 20px;
 }
 
@@ -700,24 +711,67 @@ a:hover {
     text-align: center;
     transition: .5s;
 }
-
+.sidenav a:active, a.active{
+    color: white;
+}
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
 }
+
+
 /* Style page content */
 .main {
-    margin-left: 200px; /* Same as the width of the sidebar */
+    margin-left: 200px;
+    /* Same as the width of the sidebar */
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 100px;}
-    .sidenav a {font-size: 12px;}
+    .sidenav {
+        padding-top: 100px;
+    }
+
+    .sidenav a {
+        font-size: 12px;
+    }
 }
-@media screen and (min-width: 12em) and (max-width: 64em){
+
+@media screen and (min-width: 12em) and (max-width: 64em) {
     .sidenav {
         width: 100px;
         font-size: .5em;
     }
+}
+
+@media screen and (min-width: 32em) and (max-width: 64em) {
+    p, body, li, table {
+        font-size: .6em;
+        transition: .5s;
+    }
+}
+
+@media screen and (min-width: 64em) {
+    p, body, li, table {
+        font-size: 1em;
+        transition: .5s;
+    }
+}
+
+footer {
+}
+
+img.invertimage {
+    filter: invert(1);
+}
+
+footer {
+    color: red;
+    display: block;
+    background: #393737;
+    padding: 0.6em;
+}
+footer a {
+    color: white;
+    justify-content: right;
 }
