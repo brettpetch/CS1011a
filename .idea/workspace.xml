@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="ship pt 1 of asn 2">
+    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asn2/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/src/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,30 +55,30 @@
     <session id="-2002687512">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="10" />
+          <entry key="project.open.time.3" value="11" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="17" />
-          <entry key="html" value="62" />
+          <entry key="css" value="18" />
+          <entry key="html" value="63" />
           <entry key="jpg" value="3" />
           <entry key="svg" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="17" />
-          <entry key="HTML" value="56" />
+          <entry key="CSS" value="18" />
+          <entry key="HTML" value="57" />
           <entry key="Image" value="3" />
           <entry key="SVG" value="1" />
           <entry key="Scratch" value="6" />
@@ -88,16 +86,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="5805" />
-          <entry key="html" value="5419" />
-          <entry key="txt" value="449" />
+          <entry key="css" value="7978" />
+          <entry key="html" value="5420" />
+          <entry key="txt" value="487" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="5805" />
-          <entry key="HTML" value="5139" />
-          <entry key="PLAIN_TEXT" value="449" />
+          <entry key="CSS" value="7978" />
+          <entry key="HTML" value="5140" />
+          <entry key="PLAIN_TEXT" value="487" />
           <entry key="Scratch" value="280" />
         </counts>
       </usages-collector>
@@ -107,25 +105,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asn2/src/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="249" column="46" lean-forward="true" selection-start-line="249" selection-start-column="46" selection-end-line="249" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+            <state relative-caret-position="585">
+              <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="e#4641#4647#0" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#8690#8696#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asn2/src/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3">
+              <caret line="751" column="5" selection-start-line="751" selection-start-column="5" selection-end-line="751" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -142,11 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>main</find>
-      <find>main-content</find>
-      <find>margin-left</find>
-      <find>margin-right</find>
-      <find>margin-ri</find>
       <find>page-header</find>
       <find>page</find>
       <find>project-name</find>
@@ -159,11 +152,9 @@
       <find>padding</find>
       <find>th</find>
       <find>th-</find>
-      <find>margin</find>
       <find>width</find>
       <find>@media</find>
       <find>blockquote</find>
-      <find>img</find>
       <find>::be</find>
       <find>&lt;div&gt;</find>
       <find>nav</find>
@@ -172,6 +163,13 @@
       <find>header-content</find>
       <find>a:hover</find>
       <find>section</find>
+      <find>min-width: 64em</find>
+      <find>@media screen</find>
+      <find>@media screen and (min-width</find>
+      <find>@media screen and (min-width: 32</find>
+      <find>margin</find>
+      <find>auto</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace>../img/</replace>
@@ -218,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +270,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +350,8 @@
       <workItem from="1539898468645" duration="717000" />
       <workItem from="1539900346902" duration="949000" />
       <workItem from="1539902405681" duration="246000" />
-      <workItem from="1539912233371" duration="257000" />
+      <workItem from="1539912233371" duration="5082000" />
+      <workItem from="1539918652880" duration="1679000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -522,14 +521,22 @@
       <option name="project" value="LOCAL" />
       <updated>1539811402356</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Just gonna send it.">
+      <created>1539912515799</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1539912515799</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59395000" />
+    <option name="totallyTimeSpent" value="65899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33273056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -571,7 +578,8 @@
     <MESSAGE value="Change from Notable People to Notable Personalities" />
     <MESSAGE value="fixed random errors." />
     <MESSAGE value="ship pt 1 of asn 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="ship pt 1 of asn 2" />
+    <MESSAGE value="Just gonna send it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Just gonna send it." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/asn1/details.html" />
@@ -682,20 +690,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/asn2/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="249" column="46" lean-forward="true" selection-start-line="249" selection-start-column="46" selection-end-line="249" selection-end-column="46" />
+        <state relative-caret-position="3">
+          <caret line="751" column="5" selection-start-line="751" selection-start-column="5" selection-end-line="751" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="109" column="12" lean-forward="true" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+        <state relative-caret-position="585">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
           <folding>
             <element signature="e#4641#4647#0" expanded="true" />
             <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />

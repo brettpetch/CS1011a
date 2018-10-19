@@ -1,26 +1,36 @@
 /*
-
+    Author: Brett Petch
+    Student ID: bpetch
+    Student Number: 251038051
+    Date: November 1st, 2018
+    A better way to do this with php -> <?php <?php echo date("Y");?>
  */
 /*! Import fonts */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); html {
+/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
-}
-
+}*/
+/* every unspecified element*/
 * {
     box-sizing: border-box;
 }
-
+/*
+    Display article, aside, details, figcaptions, figures, footers, headers, header groups, main content, menus, nav and summaries as block.
+ */
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,summary {
     display: block
 }
-
+/*
+    Align everything, use inline-block for embedded audio.
+ */
 audio,canvas,progress,video {
     display: inline-block;
     vertical-align: baseline
 }
-
+/*
+    if audio was here, we'd use this to make it so no controls are shown
+*/
 audio:not([controls]) {
     display: none;
     height: 0
@@ -29,11 +39,11 @@ audio:not([controls]) {
 [hidden],template {
     display: none
 }
-
+/* make references transparent */
 a {
     background-color: transparent
 }
-
+/* turn off outlines on hover */
 a:active,a:hover {
     outline: 0
 }
@@ -41,7 +51,7 @@ a:active,a:hover {
 abbr[title] {
     border-bottom: 1px dotted
 }
-
+/*make fonts pretty*/
 b,strong {
     font-weight: bold
 }
@@ -49,23 +59,23 @@ b,strong {
 dfn {
     font-style: italic
 }
-
+/* spec height and margin for header */
 h1 {
     font-size: 2em;
     margin: 0.67em 0
 }
-
+/*make highlighted portions punch*/
 mark {
     background: #ff0;
     color: #000
 }
-
+/*make small fonts small*/
 small {
     font-size: 80%
 }
 
 sub,sup {
-    font-size: 75%;
+    font-size: 75%; /* font is 75% of normal size */
     line-height: 0;
     position: relative;
     vertical-align: baseline
@@ -213,56 +223,57 @@ a:hover {
     text-decoration: underline;
 }
 .page-header:before {
-    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg");
-    background-size: cover;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    content: " ";
-    z-index: -1;
+    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg"); /* specify background image location */
+    background-size: cover; /* specify size / layout */
+    position: fixed; /* specify location */
+    left: 0; /*specify location coordinates */
+    top: 0; /*specify location coordinates */
+    height: 100%; /*specify size on page */
+    width: 100%; /* specify width on page */
+    content: " "; /*specify non-existent content to show up */
+    z-index: -1; /*specify layer depth*/
 }
 
 .page-header:hover {
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
+    -webkit-filter: blur(0px); /*turn off blur on hover for Apple Safari*/
+    -moz-filter: blur(0px); /*turn off blur on hover for Mozilla Firefox*/
+    -o-filter: blur(0px); /*turn off blur on hover for Opera*/
+    -ms-filter: blur(0px); /*turn off blur on hover for MS Web Browsers*/
+    filter: blur(0px); /*turn off blur on hover for netscape. (Just kidding, Google Chrome & new moz specs) */
     transition: 0.3s;
 }
 
 .page-header {
-    max-height: 300px;
+    max-height: 300px; /*set default height*/
     height: 90%;
     background: #333 no-repeat center center;
-    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg");
-    background: linear-gradient(to bottom right, rgba(137, 0, 0, 0.6), rgba(0, 0, 128, 0.6));
-    background-size: cover;
+    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg"); /*specify image background layer*/
+    background: linear-gradient(to bottom right, rgba(137, 0, 0, 0.6), rgba(0, 0, 128, 0.6)); /*specify gradient overlay*/
+    background-size: cover; /* specify size / layout */
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     transition-duration: .3s;
 }
 
 .page-header:before {
-    max-height: 300px;
-    -webkit-filter: blur(5px) grayscale(100%);
-    -moz-filter: blur(5px) grayscale(100%);
-    -o-filter: blur(5px) grayscale(100%);
-    -ms-filter: blur(5px) grayscale(100%);
-    filter: blur(5px) grayscale(100%);
+    max-height: 300px; /*set default height*/
+    -webkit-filter: blur(5px) grayscale(100%); /*turn on blur by default for Safari */
+    -moz-filter: blur(5px) grayscale(100%); /*turn on blur by default for Firefox */
+    -o-filter: blur(5px) grayscale(100%); /*turn on blur by default for opera. */
+    -ms-filter: blur(5px) grayscale(100%); /*turn on blur by default for ms. */
+    filter: blur(5px) grayscale(100%); /*turn on blur on hover for netscape. (Just kidding, Google Chrome & new moz specs) */
     background-size: cover;
+    position: absolute;
     transition: 0.3s;
 }
 
 .page-header:hover::before {
-    max-height: 300px;
-    -webkit-filter: blur(0px) grayscale(100%);
-    -moz-filter: blur(0px) grayscale(100%);
-    -o-filter: blur(0px) grayscale(100%);
-    -ms-filter: blur(0px) grayscale(100%);
-    filter: blur(0px) grayscale(100%);
+    max-height: 300px; /*set default height*/
+    -webkit-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    -moz-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    -o-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    -ms-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
     opacity: .5;
     transition: 0.3s;
 }
@@ -290,11 +301,6 @@ a:hover {
     filter: blur(0px);
     transition 0.3s;
 }*/
-@media screen and (min-width: 64em) {
-    .page-header {
-        padding: 4rem 4rem 4rem 15rem;
-    }
-}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .page-header {
@@ -314,12 +320,6 @@ a:hover {
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 64em) {
-    .project-name {
-        font-size:3.25rem;
-    }
-}
-
 @media screen and (min-width: 42em) and (max-width: 64em) {
     .project-name {
         font-size:2.25rem;
@@ -337,12 +337,6 @@ a:hover {
     margin-bottom: 2rem;
     font-weight: normal;
     opacity: 0.7
-}
-
-@media screen and (min-width: 64em) {
-    .project-tagline {
-        font-size:1.25rem
-    }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -365,32 +359,12 @@ a:hover {
     margin-top: 0
 }
 
-@media screen and (min-width: 64em) {
-    .main-content {
-        max-width:88rem;
-        padding: 4rem 4rem 4rem 12rem;
-        margin: 0 auto;
-        font-size: 1.1rem
-    }
-}
-
 @media screen and (min-width: 70em) {
     .main-content {
         max-width:84rem;
         padding: 4rem 4rem 4rem 12rem;
-        margin-top: 0;
-        margin-right: 0;
-        margin-left: 2rem;
-        margin-bottom: 12rem;
+        margin: 0 0 12rem 2rem;
         font-size: 1.1rem
-    }
-}
-
-@media screen and (min-width: 32em) and (max-width: 64em) {
-    .main-content {
-        max-width: 40rem;
-        padding: 1rem 4rem;
-        font-size: 1.1rem;
     }
 }
 
@@ -403,7 +377,7 @@ a:hover {
 }
 
 .main-content img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .btn {
@@ -427,20 +401,7 @@ a:hover {
     margin-left: 1rem
 }
 
-@media screen and (min-width: 64em) {
-    .btn {
-        padding:0.75rem 1rem
-    }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-    .btn {
-        padding:0.6rem 0.9rem;
-        font-size: 0.9rem
-    }
-}
-
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 32em) {
     .btn {
         display: block;
         width: 100%;
@@ -591,7 +552,7 @@ a:hover {
     background-color: #eff0f1;
     border: 0
 }
-
+/*make stuff bigger for large screens*/
 @media screen and (min-width: 88em) {
     .th-event-date {
         width: 5%;
@@ -605,7 +566,7 @@ a:hover {
         width: 55%
     }
 }
-
+/* make things different sizes for small to medium sized screens */
 @media screen and (min-width: 32em) and (max-width: 64em) {
     .th-event-date {
         width: 2%;
@@ -618,9 +579,53 @@ a:hover {
     .th-desc {
         width: 10%
     }
+    .main-content {
+        max-width: 40rem;
+        padding: 1rem 4rem;
+        font-size: 1.1rem;
+    }
+    .th-event-date {
+        width: 2%;
+    }
+
+    img .th-pics {
+        width: 15%;
+    }
+
+    .th-desc {
+        width: 10%
+    }
+    .main-content {
+        max-width: 40rem;
+        padding: 1rem 4rem;
+        font-size: 1.1rem;
+    }
+    p, body, li, table {
+        font-size: .6em;/* set sidenav size on smaller screens*/
+        transition: .5s; /* set font size for smaller screens */
+    }
+    .th-event-date {
+        width: 2%;
+    }
+
+    img .th-pics {
+        width: 15%;
+    }
+
+    .th-desc {
+        width: 10%
+    }
+    .site-footer {
+        font-size:1rem
+    }
+    .btn {
+        padding:0.6rem 0.9rem;
+        font-size: 0.9rem
+    }
 }
 
-@media screen and (min-width: 8em) and (max-width: 32) .th-event-date {
+@media screen and (min-width: 8em) and (max-width: 32) {
+    .th-event-date {
     width: 2%;
 }
 
@@ -637,18 +642,6 @@ a:hover {
     padding-top: 2rem;
     margin-top: 2rem;
     border-top: solid 1px #eff0f1
-}
-
-@media screen and (min-width: 64em) {
-    .site-footer {
-        font-size:1rem
-    }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-    .site-footer {
-        font-size:1rem
-    }
 }
 
 @media screen and (max-width: 42em) {
@@ -670,7 +663,7 @@ a:hover {
     padding: 25px 25px 0px 0px;
     color: #ffffff;
 }
-
+/* filtered images */
 .filtered-image::after {
     display: block;
     position: relative;
@@ -680,7 +673,6 @@ a:hover {
     width: 100%;
     content: '';
 }
-
 /* The sidebar menu */
 .sidenav {
     height: 100%;
@@ -700,7 +692,6 @@ a:hover {
     /* Disable horizontal scroll */
     padding-top: 20px;
 }
-
 /* The navigation menu links */
 .sidenav a {
     padding: 6px 60px 6px 16px;
@@ -718,14 +709,11 @@ a:hover {
 .sidenav a:hover {
     color: #f1f1f1;
 }
-
-
 /* Style page content */
 .main {
     margin-left: 200px;
     /* Same as the width of the sidebar */
 }
-
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -736,25 +724,42 @@ a:hover {
         font-size: 12px;
     }
 }
-
+/* make stuff smaller on small screens */
 @media screen and (min-width: 12em) and (max-width: 64em) {
     .sidenav {
-        width: 100px;
-        font-size: .5em;
+        width: 100px; /* set sidenav size on smaller screens*/
+        font-size: .6em; /* set font size for smaller screens */
     }
 }
-
-@media screen and (min-width: 32em) and (max-width: 64em) {
-    p, body, li, table {
-        font-size: .6em;
-        transition: .5s;
-    }
-}
-
+/* make stuff bigger on wider screens */
 @media screen and (min-width: 64em) {
     p, body, li, table {
         font-size: 1em;
         transition: .5s;
+    }
+    .site-footer {
+        font-size:1rem
+    }
+    .project-name {
+        font-size:3.25rem;
+    }
+    .page-header {
+        padding: 4rem 4rem 4rem 15rem;
+    }
+    .project-tagline {
+        font-size:1.25rem
+    }
+    .main-content {
+        max-width:88rem;
+        padding: 4rem 4rem 4rem 12rem;
+        margin: 0 8rem;
+        font-size: 1.1rem
+    }
+    .btn {
+        padding:0.75rem 1rem
+    }
+    .site-footer {
+        font-size:1rem
     }
 }
 
@@ -771,7 +776,8 @@ footer {
     background: #393737;
     padding: 0.6em;
 }
+
 footer a {
-    color: white;
-    justify-content: right;
+    color: white; /*footer link colour */
+    justify-content: right; /* justify to right */
 }
