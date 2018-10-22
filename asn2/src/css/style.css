@@ -4,14 +4,8 @@
     Student Number: 251038051
     Date: November 1st, 2018
     A better way to do this with php -> <?php <?php echo date("Y");?>
- */
-/*! Import fonts */
-/*@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700"); html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
-}*/
-/* every unspecified element*/
+
+    every unspecified element*/
 * {
     box-sizing: border-box;
 }
@@ -166,7 +160,7 @@ input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit
 }
 
 fieldset {
-    border: 1px solid #c0c0c0;
+    border: 1px solid rgb(192, 192, 192); /*Set border size and colour */
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em
 }
@@ -571,11 +565,9 @@ a:hover {
     .th-event-date {
         width: 2%;
     }
-
-    img .th-pics {
-        width: 15%;
+    img, .th-pics {
+        width: 10%;
     }
-
     .th-desc {
         width: 10%
     }
@@ -585,13 +577,8 @@ a:hover {
         font-size: 1.1rem;
     }
     .th-event-date {
-        width: 2%;
+        width: 40rem;
     }
-
-    img .th-pics {
-        width: 15%;
-    }
-
     .th-desc {
         width: 10%
     }
@@ -603,17 +590,6 @@ a:hover {
     p, body, li, table {
         font-size: .6em;/* set sidenav size on smaller screens*/
         transition: .5s; /* set font size for smaller screens */
-    }
-    .th-event-date {
-        width: 2%;
-    }
-
-    img .th-pics {
-        width: 15%;
-    }
-
-    .th-desc {
-        width: 10%
     }
     .site-footer {
         font-size:1rem
@@ -629,8 +605,8 @@ a:hover {
     width: 2%;
 }
 
-    img .th-pics {
-        width: 10%;
+    img, .th-pics {
+        width: 5%;
     }
 
     . th-desc {
