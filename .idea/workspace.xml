@@ -4,6 +4,7 @@
     <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asn2/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/src/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,17 +62,17 @@
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="12" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="20" />
-          <entry key="html" value="65" />
+          <entry key="html" value="68" />
           <entry key="jpg" value="3" />
           <entry key="svg" value="1" />
         </counts>
@@ -79,7 +80,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="20" />
-          <entry key="HTML" value="59" />
+          <entry key="HTML" value="62" />
           <entry key="Image" value="3" />
           <entry key="SVG" value="1" />
           <entry key="Scratch" value="6" />
@@ -87,15 +88,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="8032" />
-          <entry key="html" value="5556" />
+          <entry key="css" value="8049" />
+          <entry key="html" value="5685" />
           <entry key="txt" value="487" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8032" />
-          <entry key="HTML" value="5276" />
+          <entry key="CSS" value="8049" />
+          <entry key="HTML" value="5405" />
           <entry key="PLAIN_TEXT" value="487" />
           <entry key="Scratch" value="280" />
         </counts>
@@ -105,12 +106,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+            <state relative-caret-position="395">
+              <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -119,10 +120,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asn2/src/css/style.css">
+        <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="-20">
+              <caret line="164" column="20" lean-forward="true" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>page</find>
       <find>project-name</find>
       <find>btn</find>
       <find>side</find>
@@ -169,6 +173,7 @@
       <find>auto</find>
       <find>img</find>
       <find>.th-event-date</find>
+      <find>iframe</find>
     </findStrings>
     <replaceStrings>
       <replace>../img/</replace>
@@ -193,8 +198,8 @@
         <option value="$PROJECT_DIR$/asn1/bpetch_CS1011_webpage2.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_9.html" />
-        <option value="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" />
         <option value="$PROJECT_DIR$/asn2/src/css/style.css" />
+        <option value="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" />
         <option value="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html" />
       </list>
     </option>
@@ -353,6 +358,7 @@
       <workItem from="1539918652880" duration="1679000" />
       <workItem from="1539956299982" duration="723000" />
       <workItem from="1539959185937" duration="411000" />
+      <workItem from="1540211843630" duration="2638000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -533,10 +539,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67033000" />
+    <option name="totallyTimeSpent" value="69671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33273056" />
@@ -687,27 +693,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html">
+    <entry file="file://$PROJECT_DIR$/asn2/src/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="567" column="33" selection-start-line="567" selection-start-column="33" selection-end-line="567" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asn2/src/css/style.css">
+    <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="-20">
+          <caret line="164" column="20" lean-forward="true" selection-start-line="164" selection-start-column="20" selection-end-line="164" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="44" column="34" lean-forward="true" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+        <state relative-caret-position="395">
+          <caret line="50" column="53" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#p#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

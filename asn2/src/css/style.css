@@ -565,7 +565,7 @@ a:hover {
     .th-event-date {
         width: 2%;
     }
-    img, .th-pics {
+    img, .th-pics, iframe.youtube {
         width: 10%;
     }
     .th-desc {
