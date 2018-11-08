@@ -2,10 +2,11 @@
     Author: Brett Petch
     Student ID: bpetch
     Student Number: 251038051
-    Date: November 1st, 2018
+    Date: November 6th, 2018
     A better way to do this with php -> <?php <?php echo date("Y");?>
 
-    every unspecified element*/
+    every unspecified element
+    */
 * {
     box-sizing: border-box;
 }
@@ -600,7 +601,7 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 8em) and (max-width: 32) {
+@media screen and (min-width: 8em) and (max-width: 32em) {
     .th-event-date {
     width: 2%;
 }
@@ -739,9 +740,6 @@ a:hover {
     }
 }
 
-footer {
-}
-
 img.invertimage {
     filter: invert(1);
 }
@@ -756,4 +754,7 @@ footer {
 footer a {
     color: white; /*footer link colour */
     justify-content: right; /* justify to right */
+}
+.lightgrey {
+    color: rgb(87, 34, 99)
 }
