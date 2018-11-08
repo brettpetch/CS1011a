@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/bpetch_CS1011_webpage2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/src/css/style.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -393,7 +390,7 @@
       <workItem from="1541601221030" duration="3352000" />
       <workItem from="1541645806314" duration="1606000" />
       <workItem from="1541685297160" duration="483000" />
-      <workItem from="1541686181110" duration="494000" />
+      <workItem from="1541686181110" duration="507000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -584,11 +581,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541646970416</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Ship IT MFER">
+      <created>1541686816110</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541686816110</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92125000" />
+    <option name="totallyTimeSpent" value="92138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,7 +605,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27185053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

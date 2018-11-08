@@ -1,0 +1,760 @@
+/*
+    Author: Brett Petch
+    Student ID: bpetch
+    Student Number: 251038051
+    Date: November 6th, 2018
+    A better way to do this with php -> <?php <?php echo date("Y");?>
+
+    every unspecified element
+    */
+* {
+    box-sizing: border-box;
+}
+/*
+    Display article, aside, details, figcaptions, figures, footers, headers, header groups, main content, menus, nav and summaries as block.
+ */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,summary {
+    display: block
+}
+/*
+    Align everything, use inline-block for embedded audio.
+ */
+audio,canvas,progress,video {
+    display: inline-block;
+    vertical-align: baseline
+}
+/*
+    if audio was here, we'd use this to make it so no controls are shown
+*/
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],template {
+    display: none
+}
+/* make references transparent */
+a {
+    background-color: transparent
+}
+/* turn off outlines on hover */
+a:active,a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+/*make fonts pretty*/
+b,strong {
+    font-weight: bold
+}
+
+dfn {
+    font-style: italic
+}
+/* spec height and margin for header */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0
+}
+/*make highlighted portions punch*/
+mark {
+    background: #ff0;
+    color: #000
+}
+/*make small fonts small*/
+small {
+    font-size: 80%
+}
+
+sub,sup {
+    font-size: 75%; /* font is 75% of normal size */
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -0.5em
+}
+
+sub {
+    bottom: -0.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,kbd,pre,samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,input,optgroup,select,textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button,select {
+    text-transform: none
+}
+
+button,html input[type="button"],input[type="reset"],input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type="checkbox"],input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid rgb(192, 192, 192); /*Set border size and colour */
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: bold
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td,th {
+    padding: 0
+}
+
+.highlight table td {
+    padding: 5px
+}
+
+.highlight table pre {
+    margin: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606c71
+}
+
+a {
+    color: #1e6bb8;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.page-header:before {
+    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg"); /* specify background image location */
+    background-size: cover; /* specify size / layout */
+    position: fixed; /* specify location */
+    left: 0; /*specify location coordinates */
+    top: 0; /*specify location coordinates */
+    height: 100%; /*specify size on page */
+    width: 100%; /* specify width on page */
+    content: " "; /*specify non-existent content to show up */
+    z-index: -1; /*specify layer depth*/
+}
+
+.page-header:hover {
+    -webkit-filter: blur(0px); /*turn off blur on hover for Apple Safari*/
+    -moz-filter: blur(0px); /*turn off blur on hover for Mozilla Firefox*/
+    -o-filter: blur(0px); /*turn off blur on hover for Opera*/
+    -ms-filter: blur(0px); /*turn off blur on hover for MS Web Browsers*/
+    filter: blur(0px); /*turn off blur on hover for netscape. (Just kidding, Google Chrome & new moz specs) */
+    transition: 0.3s;
+}
+
+.page-header {
+    max-height: 300px; /*set default height*/
+    height: 90%;
+    background: #333 no-repeat center center;
+    background-image: url("http://publish.uwo.ca/~bpetch/asn2/img/buck_school.jpg"); /*specify image background layer*/
+    background: linear-gradient(to bottom right, rgba(137, 0, 0, 0.6), rgba(0, 0, 128, 0.6)); /*specify gradient overlay*/
+    background-size: cover; /* specify size / layout */
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition-duration: .3s;
+}
+
+.page-header:before {
+    max-height: 300px; /*set default height*/
+    -webkit-filter: blur(5px) grayscale(100%); /*turn on blur by default for Safari */
+    -moz-filter: blur(5px) grayscale(100%); /*turn on blur by default for Firefox */
+    -o-filter: blur(5px) grayscale(100%); /*turn on blur by default for opera. */
+    -ms-filter: blur(5px) grayscale(100%); /*turn on blur by default for ms. */
+    filter: blur(5px) grayscale(100%); /*turn on blur on hover for netscape. (Just kidding, Google Chrome & new moz specs) */
+    background-size: cover;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.page-header:hover::before {
+    max-height: 300px; /*set default height*/
+    -webkit-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    -moz-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    -o-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    -ms-filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    filter: blur(0px) grayscale(100%); /*turn off blur on hover for Apple Safari*/
+    opacity: .5;
+    transition: 0.3s;
+}
+
+.header-content {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 0;
+    /*
+    Don't even try to activate this. you'll blow something up
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);*/
+}
+
+/*.header-content::hover {
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    transition 0.3s;
+}*/
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .page-header {
+        padding: 4rem 4rem 4rem 15rem;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .page-header {
+        padding: 4rem 4rem 4rem 15rem;
+    }
+}
+
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .project-name {
+        font-size:2.25rem;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .project-name {
+        font-size:1.75rem;
+    }
+}
+
+.project-tagline {
+    color: navy;
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 0.7
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    .project-tagline {
+        font-size:1.15rem
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .project-tagline {
+        font-size:1rem
+    }
+}
+
+.main-content {
+    word-wrap: break-word;
+}
+
+.main-content :first-child {
+    margin-top: 0
+}
+
+@media screen and (min-width: 70em) {
+    .main-content {
+        max-width:84rem;
+        padding: 4rem 4rem 4rem 12rem;
+        margin: 0 0 12rem 2rem;
+        font-size: 1.1rem
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .main-content {
+        max-width: 20em;
+        padding: 2rem 1rem;
+        font-size: 1rem
+    }
+}
+
+.main-content img {
+    max-width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s
+}
+
+.btn:hover {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.3)
+}
+
+.btn+.btn {
+    margin-left: 1rem
+}
+
+@media screen and (max-width: 32em) {
+    .btn {
+        display: block;
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 0.9rem
+    }
+
+    .btn + .btn {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+}
+
+.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #b9212a
+}
+
+.main-content p {
+    margin-bottom: 1em
+}
+
+.main-content code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: #567482;
+    background-color: #f3f6fa;
+    border-radius: 0.3rem
+}
+
+.main-content pre {
+    padding: 0.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #567482;
+    word-wrap: normal;
+    background-color: #f3f6fa;
+    border: solid 1px #dce6f0;
+    border-radius: 0.3rem
+}
+
+.main-content pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #567482;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0
+}
+
+.main-content .highlight {
+    margin-bottom: 1rem
+}
+
+.main-content .highlight pre {
+    margin-bottom: 0;
+    word-break: normal
+}
+
+.main-content .highlight pre,.main-content pre {
+    padding: 0.8rem;
+    overflow: auto;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    border-radius: 0.3rem;
+    -webkit-overflow-scrolling: touch
+}
+
+.main-content pre code,.main-content pre tt {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0
+}
+
+.main-content pre code:before,.main-content pre code:after,.main-content pre tt:before,.main-content pre tt:after {
+    content: normal
+}
+
+.main-content ul,.main-content ol {
+    margin-top: 0
+}
+
+.main-content blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #819198;
+    border-left: 0.3rem solid #dce6f0
+}
+
+.main-content blockquote>:first-child {
+    margin-top: 0
+}
+
+.main-content blockquote>:last-child {
+    margin-bottom: 0
+}
+
+.main-content table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    word-break: normal;
+    word-break: keep-all;
+    -webkit-overflow-scrolling: touch
+}
+
+.main-content table th {
+    font-weight: bold
+}
+
+.main-content table th,.main-content table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #e9ebec
+}
+
+.main-content dl {
+    padding: 0
+}
+
+.main-content dl dt {
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold
+}
+
+.main-content dl dd {
+    padding: 0;
+    margin-bottom: 1rem
+}
+
+.main-content hr {
+    height: 2px;
+    padding: 0;
+    margin: 1rem 0;
+    background-color: #eff0f1;
+    border: 0
+}
+/*make stuff bigger for large screens*/
+@media screen and (min-width: 88em) {
+    .th-event-date {
+        width: 5%;
+    }
+
+    img .th-pics {
+        width: 25%;
+    }
+
+    . th-desc {
+        width: 55%
+    }
+}
+/* make things different sizes for small to medium sized screens */
+@media screen and (min-width: 32em) and (max-width: 64em) {
+    .th-event-date {
+        width: 2%;
+    }
+    img, .th-pics, iframe.youtube {
+        width: 10%;
+    }
+    .th-desc {
+        width: 10%
+    }
+    .main-content {
+        max-width: 40rem;
+        padding: 1rem 4rem;
+        font-size: 1.1rem;
+    }
+    .th-event-date {
+        width: 40rem;
+    }
+    .th-desc {
+        width: 10%
+    }
+    .main-content {
+        max-width: 40rem;
+        padding: 1rem 4rem;
+        font-size: 1.1rem;
+    }
+    p, body, li, table {
+        font-size: .6em;/* set sidenav size on smaller screens*/
+        transition: .5s; /* set font size for smaller screens */
+    }
+    .site-footer {
+        font-size:1rem
+    }
+    .btn {
+        padding:0.6rem 0.9rem;
+        font-size: 0.9rem
+    }
+}
+
+@media screen and (min-width: 8em) and (max-width: 32em) {
+    .th-event-date {
+    width: 2%;
+}
+
+    img, .th-pics {
+        width: 5%;
+    }
+
+    . th-desc {
+        width: 10%
+    }
+}
+
+.site-footer {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: solid 1px #eff0f1
+}
+
+@media screen and (max-width: 42em) {
+    .site-footer {
+        font-size:0.9rem
+    }
+}
+
+.site-footer-owner {
+    display: block;
+    font-weight: bold
+}
+
+.site-footer-credits {
+    color: #819198
+}
+
+.head-sm {
+    padding: 25px 25px 0px 0px;
+    color: #ffffff;
+}
+/* filtered images */
+.filtered-image::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    content: '';
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 250px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0px;
+    /* Stay at the top */
+    left: 0;
+    background-color: #050879;
+    /* Blue */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 60px 6px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #818181;
+    display: block;
+    text-align: center;
+    transition: .5s;
+}
+.sidenav a:active, a.active{
+    color: white;
+}
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+/* Style page content */
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidebar */
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 100px;
+    }
+
+    .sidenav a {
+        font-size: 12px;
+    }
+}
+/* make stuff smaller on small screens */
+@media screen and (min-width: 12em) and (max-width: 64em) {
+    .sidenav {
+        width: 100px; /* set sidenav size on smaller screens*/
+        font-size: .6em; /* set font size for smaller screens */
+    }
+}
+/* make stuff bigger on wider screens */
+@media screen and (min-width: 64em) {
+    p, body, li, table {
+        font-size: 1em;
+        transition: .5s;
+    }
+    .site-footer {
+        font-size:1rem
+    }
+    .project-name {
+        font-size:3.25rem;
+    }
+    .page-header {
+        padding: 4rem 4rem 4rem 15rem;
+    }
+    .project-tagline {
+        font-size:1.25rem
+    }
+    .main-content {
+        max-width:88rem;
+        padding: 4rem 4rem 4rem 12rem;
+        margin: 0 8rem;
+        font-size: 1.1rem
+    }
+    .btn {
+        padding:0.75rem 1rem
+    }
+    .site-footer {
+        font-size:1rem
+    }
+}
+
+img.invertimage {
+    filter: invert(1);
+}
+
+footer {
+    color: red;
+    display: block;
+    background: #393737;
+    padding: 0.6em;
+}
+
+footer a {
+    color: white; /*footer link colour */
+    justify-content: right; /* justify to right */
+}
+.lightgrey {
+    color: rgb(87, 34, 99)
+}
