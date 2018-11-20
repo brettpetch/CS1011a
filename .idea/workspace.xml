@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/asn3/JSFunctions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/bpetch_ASN2_webpage1.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/bpetch_ASN2_webpage1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn2/bpetch_ASN2_webpage2.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn2/bpetch_ASN2_webpage2.html" afterDir="false" />
-    </list>
+    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -60,7 +52,7 @@
     <session id="-2002687512">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="64" />
+          <entry key="project.closed" value="65" />
           <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -101,7 +93,7 @@
           <entry key="html" value="18090" />
           <entry key="js" value="1269" />
           <entry key="php" value="316" />
-          <entry key="txt" value="626" />
+          <entry key="txt" value="645" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -109,7 +101,7 @@
           <entry key="CSS" value="8167" />
           <entry key="HTML" value="17190" />
           <entry key="PHP" value="316" />
-          <entry key="PLAIN_TEXT" value="626" />
+          <entry key="PLAIN_TEXT" value="645" />
           <entry key="Scratch" value="2169" />
         </counts>
       </usages-collector>
@@ -380,7 +372,7 @@
       <workItem from="1542654080594" duration="678000" />
       <workItem from="1542655580736" duration="758000" />
       <workItem from="1542684791344" duration="2014000" />
-      <workItem from="1542687127313" duration="873000" />
+      <workItem from="1542687127313" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -585,11 +577,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541686865641</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="SHIP IT">
+      <created>1542688037787</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1542688037787</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118570000" />
+    <option name="totallyTimeSpent" value="118608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +659,8 @@
     <MESSAGE value="Just gonna send it." />
     <MESSAGE value="Removal of all external stylesheets&#10;&#10;Changed Style to change size of iframe with change of viewport." />
     <MESSAGE value="Ship IT MFER" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ship IT MFER" />
+    <MESSAGE value="SHIP IT" />
+    <option name="LAST_COMMIT_MESSAGE" value="SHIP IT" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tut/css.css">
