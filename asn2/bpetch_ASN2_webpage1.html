@@ -21,6 +21,7 @@
                 font: 14px sans-serif;
             }
         </style>
+
     </head>
     <!--
         Required Commenting:
@@ -39,6 +40,11 @@
                     <div class="header-content">
                         <h1 class="project-name">Brett Petch's High School</h1>
                         <h2 class="project-tagline lightgrey">Bradford District High School</h2>
+                        <h2 class="project-tagline" style="color:white;" id="randomPhrase"><script type="text/javascript">
+                            let quotes = [ "All the trees look shriveled and dead, just the way I like them.", "Time to go into hibernation, meatbag!", "It's not my fault it's winter. Oh wait, yes it is.", "It's frakking winter.", "Ah, winter. The most popular time of year to get a divorce!", "Winter is here. My god, Sean Bean was right! He was right all along!", "Happy winter! Hope you're a fan of seasonal affective disorder.", "It's winter. Do your part and turn up the thermostat to hasten global warming.", "Winter is coming. Wait, what? Winter is already here? Oh god, we're doomed!", "The ones who complain about snowflakes are always the biggest snowflakes.", "If I hear one frakking complaint, I'll turn this into a nuclear winter.", "It's just so easy to wander out into the cold and give up on life.", "Now is the winter of our disco tent.", "It's winter, but spring isn't that far off. Or is it? Maybe I can delay it for a few years...", "I sent some winter your way. Thank me later.", "According to my sensors, it's winter in this region. OK, I'll be honest, all I did was look at a calendar.", "Here, have some winter.", "Wow. Much winter." ]
+                            let index = Math.floor((Math.random() * quotes.length));
+                            document.getElementById('randomPhrase').innerHTML = quotes[index];
+                        </script></h2>
                         <!--container for logos and buttons-->
                         <div align="center">
                             <a class="btn" href="https://twitter.com/BUCSpirit">

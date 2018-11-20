@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Project 2</title>
+    <script type="text/javascript" src="JSFunctions.js"></script>
+    <script>
+        let fib = function(numMax) {
+            if (/\D/.test(numMax) || numMax === -2) {
+                document.write("User did not enter a value.");
+            }
+            if (numMax >= -1) {
+                document.write("<b>Sequence of numbers up to iteration number: </b>" + (numMax + 2) + "<br />");
+                document.write("<b>0</b> &nbsp; &nbsp; first value in Fibonacci Sequence.<br/>");
+                console.log("printed " + (numMax + 2) + " requested values ")
+            }
+            if (numMax >= 0) {
+                document.write("<b>1</b> &nbsp; &nbsp; second value in Fibonacci Sequence.<br/>");
+            }
+            for (a = 0, b = 1, c = 0; c < numMax; a = b, b = x, c++) {
+                x = a + b;
+                document.write('<b>' + formatNumber(x) + ' :</b> &nbsp; &nbsp; result of adding the preceding two values together: <b> ' + formatNumber(a) + '</b>' + ' + ' + formatNumber(b) + ' <br/> ');
+            }
+        }
+    </script>
+</head>
+<body>
+<h2 style="text-align: center; color:blue;">CS1011a Project Two (2): Fibonacci</h2>
+<h3>Fibonacci Sequence</h3>
+<hr />
+<p>The Fibonacci Sequence is a series of numbers where each value is combination of the preceding two numbers</p>
+<p>They also appear naturally as seen in such biological settings as:</p>
+<ul>
+    <li>branching in trees</li>
+    <li>phyllotaxis (the arrangement of leaves on a stem)</li>
+    <li>the fruit sprouts of a pineapple</li>
+    <li>the flowering of an artichoke</li>
+    <li>an uncurling fern and the arrangement of a pine cone's bracts</li>
+    <li>the chambers of a conch shell</li>
+</ul>
+<p>the first two values of the Sequence are 0 and 1</p>
+<p>so we will just print those out and start calculating at the third iteration <b>( 1 + 0 ).</b></p>
+<hr />
+<script>
+    fib(prompt("What is the upper limit", 0)-2);
+</script>
+<hr />
+<br />
+<b>This is the end of the results.</b>
+<p>Author: [Brett Petch]</p>
+</body>
+</html>
