@@ -2,19 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>bpetch_ASN3_Project3</title>
     <script>
-        function rdm() {
-            let x = Math.floor((Math.random() * 100) + 1);
-            document.write(x)
-        }
+            let x = Math.floor(Math.random() * 100) + 1;
+            let turns = 1;
+            let hint = 'Guess my number, 1-100!';
+            alert("I am thinking of a number between 1 and 100 (inclusive)" + "\n" + "- In the next window enter your guess:" + "\n" + "\u00A0 ... and I will tell you if you are right" + "\n \u00A0 ... or if you have to go higher." + "\n \u00A0 ... or if you have to go lower." );
+            while (turns > 0) {
+                let guess = prompt(hint +
+                    ' You have ' + turns + ' guesses left.');
+                if (!guess) break;
+                guess = Number(guess);
+                if (guess === x) {
+                    alert("GOOD ON YOU !!! \n \n You correctly guessed I was thinking of the number: " + x + "\n \n It took you " + turns + " guesses.");
+                    break;
+                } else {
+                    hint = 'Nope.';
+                    if (guess < x) hint += ' Too small!' + '';
+                    if (guess > x) hint += ' Too big!';
+                    turns = turns + 1;
+                }
+            }
+            alert('The secret number was ' + x + '.');
     </script>
 </head>
 <body>
-<script>
-    prompt("This site says... \n I am thinking of a number between 1 and 100 (inclusive) \n in the next window enter your guess: \n ... and I will tell you if you are right \n ... or if you have to go higher \n or if you have to go lower.");
-    for
-    prompt("GUESS NUMBER \n \n Enter your guess here: \n Enter a value between 1 and 100 (inclusive). \n      (Select the <OK> button and I will tell you the result.) \n      (Select <Cancel> to stop the game)")
-</script>
+
 </body>
 </html>
