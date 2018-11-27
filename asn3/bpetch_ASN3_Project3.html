@@ -35,12 +35,12 @@
         if (guess === x) {
             alert("GOOD ON YOU !!! \n \n You correctly guessed I was thinking of the number: " + x + "\n \n It took you " + turns + " guesses.");
             document.getElementById("lineOne").innerHTML = "Random Number computer was thinking of between 1 and 100 was: <b>" + x + "</b></p> \n \n <p>User guessed the value correctly using " + turns + " guesses. </p>";
-            document.getElementById("lineTwo").innerHTML = "<br/>Program Terminated Normally.";
+            document.getElementById("lineTwo").innerHTML = "Program Terminated Normally.";
             break;
         } else {
             hint = 'INCORRECT ENTRY!';
-            if (guess < x) hint += ' MUST be a higher number between' ;
-            if (guess > x) hint += ' MUST be a lower number between ';
+            if (guess < x) hint += ' MUST be a higher number between' + (guess+1) + '';
+            if (guess > x) hint += ' MUST be a lower number between ' + (guess-1) + '';
             turns = turns + 1;
         }
     }

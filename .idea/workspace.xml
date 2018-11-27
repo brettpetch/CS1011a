@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="553">
+              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -282,7 +281,7 @@
       <workItem from="1542766293196" duration="534000" />
       <workItem from="1543200824688" duration="3217000" />
       <workItem from="1543253259623" duration="245000" />
-      <workItem from="1543270377097" duration="3096000" />
+      <workItem from="1543270377097" duration="5105000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -501,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543253507032</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Various Stability and Scaling improvements.">
+      <created>1543273743545</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1543273743545</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127104000" />
+    <option name="totallyTimeSpent" value="129113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -574,7 +580,8 @@
     <MESSAGE value="Removal of all external stylesheets&#10;&#10;Changed Style to change size of iframe with change of viewport." />
     <MESSAGE value="Ship IT MFER" />
     <MESSAGE value="SHIP IT" />
-    <option name="LAST_COMMIT_MESSAGE" value="SHIP IT" />
+    <MESSAGE value="Various Stability and Scaling improvements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Various Stability and Scaling improvements." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tut/css.css">
@@ -734,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="553">
+          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
