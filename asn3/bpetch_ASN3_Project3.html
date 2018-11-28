@@ -43,16 +43,19 @@
                 var low = 1;
             }
             if (guess < x){
-                if (low <= guess || guess !== Number(guess)) {low = guess + 1;}
+                if (low <= guess) {
+                    low = guess + 1;
+                    turns = turns + 1;
+                }
                     hint += '\n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n and I will tell you the result...';
                 }
             if (guess > x) {
                 if (guess <= high) {
                     high = guess - 1;
+                    turns = turns + 1;
                 }
-                hint += ' \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n and I will tell you the result.';
+                hint += ' \n \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n and I will tell you the result.';
             }
-            turns = turns + 1;
         }
     }
 </script>
