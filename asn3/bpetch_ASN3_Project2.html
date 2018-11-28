@@ -6,18 +6,23 @@
     <style>h2{color: blue; text-align: center;}</style>
     <script type="text/javascript" src="JSFunctions.js"></script>
     <script>
+        //set the maximum number of iterations.
         let fib = function(numMax) {
             if (/\D/.test(numMax) || numMax === -2) {
+                //write to document that there was no value :tears:
                 document.write("User did not enter a value.");
             }
+            //first value.
             if (numMax >= -1) {
                 document.write("<b>Sequence of numbers up to iteration number: </b>" + (numMax + 2) + "<br />");
                 document.write("<b>0</b> &nbsp; &nbsp; first value in Fibonacci Sequence.<br/>");
                 console.log("printed " + (numMax + 2) + " requested values ")
             }
+            //2nd value.
             if (numMax >= 0) {
                 document.write("<b>1</b> &nbsp; &nbsp; second value in Fibonacci Sequence.<br/>");
             }
+            //loop for printing the number needed.
             for (a = 0, b = 1, c = 0; c < numMax; a = b, b = x, c++) {
                 x = a + b;
                 document.write('<b>' + formatNumber(x) + ' :</b> &nbsp; &nbsp; result of adding the preceding two values together: <b> ' + formatNumber(a) + '</b>' + ' + ' + formatNumber(b) + ' <br/> ');
@@ -43,6 +48,7 @@
 <p>so we will just print those out and start calculating at the third iteration <b>( 1 + 0 ).</b></p>
 <hr />
 <script>
+    //subtract 2 from the max # of iterations.
     fib(prompt("What is the upper limit", 0)-2);
 </script>
 <hr />
