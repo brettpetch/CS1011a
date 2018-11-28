@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="56" column="231" selection-start-line="56" selection-start-column="231" selection-end-line="56" selection-end-column="231" />
+            <state relative-caret-position="312">
+              <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
               <folding>
                 <element signature="e#558#562#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -118,7 +127,6 @@
         <option value="$PROJECT_DIR$/asn3/2.html" />
         <option value="$PROJECT_DIR$/asn3/fdg.html" />
         <option value="$PROJECT_DIR$/asn3/fanc.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/asn2/src/css/style.css" />
         <option value="$PROJECT_DIR$/asn3/tut.html" />
         <option value="$PROJECT_DIR$/asn3/new input.html" />
@@ -138,6 +146,7 @@
         <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" />
         <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" />
         <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -304,7 +313,7 @@
       <workItem from="1543253259623" duration="245000" />
       <workItem from="1543270377097" duration="5105000" />
       <workItem from="1543429334753" duration="443000" />
-      <workItem from="1543435434637" duration="7354000" />
+      <workItem from="1543435434637" duration="7711000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -551,11 +560,32 @@
       <option name="project" value="LOCAL" />
       <updated>1543442874660</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="fix text to match example.">
+      <created>1543442999428</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1543442999428</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add Index Infos">
+      <created>1543443261839</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1543443261839</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add Index Infos">
+      <created>1543443277285</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1543443277285</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136910000" />
+    <option name="totallyTimeSpent" value="137267000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -628,7 +658,9 @@
     <MESSAGE value="working (sorta) guessing between thingy" />
     <MESSAGE value="guess between with working counter v1" />
     <MESSAGE value="guess between with working counter v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="guess between with working counter v2" />
+    <MESSAGE value="fix text to match example." />
+    <MESSAGE value="Add Index Infos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Index Infos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tut/css.css">
@@ -684,13 +716,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn2/img/springfling1.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" column="89" lean-forward="true" selection-start-line="30" selection-start-column="89" selection-end-line="30" selection-end-column="89" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/finishedsite/img/index.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -794,11 +819,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="56" column="231" selection-start-line="56" selection-start-column="231" selection-end-line="56" selection-end-column="231" />
+        <state relative-caret-position="312">
+          <caret line="45" column="32" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
           <folding>
             <element signature="e#558#562#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
