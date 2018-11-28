@@ -18,7 +18,7 @@
 <script>
     let x = Number(Math.floor(Math.random() * 100) + 1);
     let turns = 1;
-    let hint = 'Guess my number, 1-100!';
+    let hint = 'Enter your guess here. \n \n Enter a value between 1 and 100 (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \\n \\n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
     alert("I am thinking of a number between 1 and 100 (inclusive)" + "\n" + "- In the next window enter your guess:" + "\n" + "\u00A0 ... and I will tell you if you are right" + "\n \u00A0 ... or if you have to go higher." + "\n \u00A0 ... or if you have to go lower." );
     while (turns > -1) {
         let guess = prompt('GUESS NUMBER: ' + turns + ' \n' + hint);
