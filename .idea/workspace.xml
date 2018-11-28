@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,14 +18,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="172" selection-start-line="20" selection-start-column="172" selection-end-line="20" selection-end-column="172" />
+            <state relative-caret-position="115">
+              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-end-line="6" />
               <folding>
                 <element signature="e#558#562#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding>
+                <element signature="e#9#15#1" expanded="true" />
+                <element signature="e#16#22#1" expanded="true" />
+                <element signature="e#9#15#1" expanded="true" />
+                <element signature="e#16#22#1" expanded="true" />
+                <element signature="e#10#16#1" expanded="true" />
+                <element signature="e#17#23#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -115,10 +144,10 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_13.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_14.html" />
-        <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" />
         <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" />
+        <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" />
+        <option value="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" />
       </list>
     </option>
   </component>
@@ -133,6 +162,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +179,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -285,7 +314,8 @@
       <workItem from="1543253259623" duration="245000" />
       <workItem from="1543270377097" duration="5105000" />
       <workItem from="1543429334753" duration="443000" />
-      <workItem from="1543435434637" duration="8304000" />
+      <workItem from="1543435434637" duration="8447000" />
+      <workItem from="1543444337083" duration="44000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -588,11 +618,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543443851056</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="fix typo">
+      <created>1543444023397</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1543444023397</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137860000" />
+    <option name="totallyTimeSpent" value="138047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -803,13 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
@@ -817,10 +847,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="e#558#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="115">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
           <folding>
             <element signature="e#9#15#1" expanded="true" />
             <element signature="e#16#22#1" expanded="true" />
@@ -828,18 +868,14 @@
             <element signature="e#16#22#1" expanded="true" />
             <element signature="e#10#16#1" expanded="true" />
             <element signature="e#17#23#1" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
+    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="172" selection-start-line="20" selection-start-column="172" selection-end-line="20" selection-end-column="172" />
-          <folding>
-            <element signature="e#558#562#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="207">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
