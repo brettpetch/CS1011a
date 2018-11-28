@@ -19,8 +19,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="508">
+              <caret line="52" column="139" selection-start-line="52" selection-start-column="139" selection-end-line="52" selection-end-column="139" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="e#9#15#1" expanded="true" />
+                <element signature="e#16#22#1" expanded="true" />
+                <element signature="e#9#15#1" expanded="true" />
+                <element signature="e#16#22#1" expanded="true" />
+                <element signature="e#10#16#1" expanded="true" />
+                <element signature="e#17#23#1" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,7 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>th-</find>
       <find>width</find>
       <find>@media</find>
       <find>blockquote</find>
@@ -67,6 +84,7 @@
       <find>.”, ”</find>
       <find>left</find>
       <find>center</find>
+      <find>//</find>
     </findStrings>
     <replaceStrings>
       <replace>../img/</replace>
@@ -121,10 +139,10 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="846" />
-    <option name="width" value="834" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -282,6 +300,8 @@
       <workItem from="1543200824688" duration="3217000" />
       <workItem from="1543253259623" duration="245000" />
       <workItem from="1543270377097" duration="5105000" />
+      <workItem from="1543429334753" duration="443000" />
+      <workItem from="1543435434637" duration="4661000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -511,7 +531,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129113000" />
+    <option name="totallyTimeSpent" value="134217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +543,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
@@ -734,6 +754,12 @@
         <state relative-caret-position="506">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
+            <element signature="e#9#15#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#9#15#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#10#16#1" expanded="true" />
+            <element signature="e#17#23#1" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -741,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="508">
+          <caret line="52" column="139" selection-start-line="52" selection-start-column="139" selection-end-line="52" selection-end-column="139" />
         </state>
       </provider>
     </entry>
