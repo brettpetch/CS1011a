@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +18,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="460">
               <caret line="20" column="172" selection-start-line="20" selection-start-column="172" selection-end-line="20" selection-end-column="172" />
               <folding>
                 <element signature="e#558#562#0" expanded="true" />
@@ -286,7 +285,7 @@
       <workItem from="1543253259623" duration="245000" />
       <workItem from="1543270377097" duration="5105000" />
       <workItem from="1543429334753" duration="443000" />
-      <workItem from="1543435434637" duration="8203000" />
+      <workItem from="1543435434637" duration="8304000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -582,11 +581,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543443748361</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="fix typo">
+      <created>1543443851056</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1543443851056</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137759000" />
+    <option name="totallyTimeSpent" value="137860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,7 +835,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="460">
           <caret line="20" column="172" selection-start-line="20" selection-start-column="172" selection-end-line="20" selection-end-column="172" />
           <folding>
             <element signature="e#558#562#0" expanded="true" />
