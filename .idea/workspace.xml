@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="56" column="185" selection-start-line="56" selection-start-column="185" selection-end-line="56" selection-end-column="185" />
+            <state relative-caret-position="208">
+              <caret line="20" column="172" selection-start-line="20" selection-start-column="172" selection-end-line="20" selection-end-column="172" />
               <folding>
                 <element signature="e#558#562#0" expanded="true" />
               </folding>
@@ -286,7 +286,7 @@
       <workItem from="1543253259623" duration="245000" />
       <workItem from="1543270377097" duration="5105000" />
       <workItem from="1543429334753" duration="443000" />
-      <workItem from="1543435434637" duration="7946000" />
+      <workItem from="1543435434637" duration="8203000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -568,11 +568,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543443499323</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fix typo">
+      <created>1543443600007</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1543443600007</updated>
+    </task>
+    <task id="LOCAL-00042" summary="fix typo">
+      <created>1543443748361</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1543443748361</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137502000" />
+    <option name="totallyTimeSpent" value="137759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,9 +661,9 @@
     <MESSAGE value="guess between with working counter v2" />
     <MESSAGE value="fix text to match example." />
     <MESSAGE value="Add Index Infos" />
-    <MESSAGE value="fix typo" />
     <MESSAGE value="change number to numberToFormat." />
-    <option name="LAST_COMMIT_MESSAGE" value="change number to numberToFormat." />
+    <MESSAGE value="fix typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tut/css.css">
@@ -815,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="56" column="185" selection-start-line="56" selection-start-column="185" selection-end-line="56" selection-end-column="185" />
+        <state relative-caret-position="208">
+          <caret line="20" column="172" selection-start-line="20" selection-start-column="172" selection-end-line="20" selection-end-column="172" />
           <folding>
             <element signature="e#558#562#0" expanded="true" />
           </folding>
