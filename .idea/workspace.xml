@@ -19,8 +19,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="52" column="139" selection-start-line="52" selection-start-column="139" selection-end-line="52" selection-end-column="139" />
+            <state relative-caret-position="219">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+              <folding>
+                <element signature="e#558#562#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>width</find>
       <find>@media</find>
       <find>blockquote</find>
       <find>::be</find>
@@ -85,6 +87,7 @@
       <find>left</find>
       <find>center</find>
       <find>//</find>
+      <find>&amp;lt</find>
     </findStrings>
     <replaceStrings>
       <replace>../img/</replace>
@@ -139,7 +142,7 @@
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -301,7 +304,7 @@
       <workItem from="1543253259623" duration="245000" />
       <workItem from="1543270377097" duration="5105000" />
       <workItem from="1543429334753" duration="443000" />
-      <workItem from="1543435434637" duration="4661000" />
+      <workItem from="1543435434637" duration="7231000" />
     </task>
     <task id="LOCAL-00001" summary="Commit change">
       <created>1537985005285</created>
@@ -527,11 +530,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543273743545</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="working (sorta) guessing between thingy">
+      <created>1543440353754</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1543440353754</updated>
+    </task>
+    <task id="LOCAL-00034" summary="guess between with working counter v1">
+      <created>1543440544819</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1543440544819</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134217000" />
+    <option name="totallyTimeSpent" value="136787000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,7 +560,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
@@ -601,7 +618,9 @@
     <MESSAGE value="Ship IT MFER" />
     <MESSAGE value="SHIP IT" />
     <MESSAGE value="Various Stability and Scaling improvements." />
-    <option name="LAST_COMMIT_MESSAGE" value="Various Stability and Scaling improvements." />
+    <MESSAGE value="working (sorta) guessing between thingy" />
+    <MESSAGE value="guess between with working counter v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="guess between with working counter v1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tut/css.css">
@@ -767,8 +786,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="52" column="139" selection-start-line="52" selection-start-column="139" selection-end-line="52" selection-end-column="139" />
+        <state relative-caret-position="219">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#558#562#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

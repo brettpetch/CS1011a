@@ -20,9 +20,8 @@
     let turns = 1;
     let hint = 'Guess my number, 1-100!';
     alert("I am thinking of a number between 1 and 100 (inclusive)" + "\n" + "- In the next window enter your guess:" + "\n" + "\u00A0 ... and I will tell you if you are right" + "\n \u00A0 ... or if you have to go higher." + "\n \u00A0 ... or if you have to go lower." );
-    while (turns > 0) {
-        let guess = prompt(hint +
-            '\n GUESS NUMBER ' + turns);
+    while (turns > -1) {
+        let guess = prompt('GUESS NUMBER: ' + turns + ' \n' + hint);
         if (!guess) {
             document.getElementById("lineOne").innerHTML = "Random Number computer was thinking of between 1 and 100 was: <b>" + x + "</b></p> \n \n </p>";
             document.getElementById("lineTwo").innerHTML = "User Canceled Game<br>Program Terminated Prematurely.";
@@ -35,7 +34,6 @@
             document.getElementById("lineTwo").innerHTML = "Program Terminated Normally.";
             break;
         } else {
-            hint = 'INCORRECT ENTRY!';
             if (high === null || high === undefined){
                 var high = 100;
             }
@@ -45,18 +43,19 @@
             if (guess < x){
                 if (low <= guess) {
                     low = guess + 1;
+                    hint = ' \n You are too low. \n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
                     turns = turns + 1;
                 }
-                    hint += '\n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n and I will tell you the result...';
                 }
             if (guess > x) {
                 if (guess <= high) {
                     high = guess - 1;
+                    hint = ' \n You are too high. \n \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \\n \\n \u00A0 (Select \x3C Cancel \x3E to stop the game.)\';';
                     turns = turns + 1;
                 }
-                hint += ' \n \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n and I will tell you the result.';
             }
-        }
+            if (!guess) {hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number between ' + low + ' and ' + high + ". \n \n  Enter a value between" + low + "and" + high + "(inclusive). \n \n and I will tell you the result \n \n ...that guess did not count.";}
+            }
     }
 </script>
 <hr/>
