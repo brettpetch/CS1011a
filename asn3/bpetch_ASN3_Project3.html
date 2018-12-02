@@ -6,79 +6,79 @@
     <style>h2{color: blue; text-align: center;}</style>
 </head>
 <body>
-<h2>CS1011a Project Three : Guessing Game</h2>
-<h3>Computer Gaming with JavaScript</h3>
-<hr/>
-<p>This is an HTML webpage that has JavaScript embedded inside.<br/> This will allow the user to play a simple game.</p>
-<p>The computer will think of a number between 1 and 100 (inclusive)<br/> and the user will try to guess that number.</p>
-<p>The user can quit the game at any time by simply selecting the &lt;Cancel&gt; button.</p>
-<hr/>
-<h4>RESULTS OF THE GUESSING GAME</h4>
-<div id="lineOne"></div>
-<div id="lineTwo"></div>
-<script>
-    // set random value.
-    let x = Number(Math.floor(Math.random() * 100) + 1);
-    //set turns to 1
-    let turns = 1;
-    //create hint.
-    let hint = 'Enter your guess here. \n \n Enter a value between 1 and 100 (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
-    //set alert
-    alert("I am thinking of a number between 1 and 100 (inclusive)" + "\n" + "- In the next window enter your guess:" + "\n" + "\u00A0 ... and I will tell you if you are right" + "\n \u00A0 ... or if you have to go higher." + "\n \u00A0 ... or if you have to go lower." );
-    //start loop with impossible ending unless break.
-    while (turns > -1) {
-        let guess = prompt('GUESS NUMBER: ' + turns + ' \n' + hint);
-        //there's nothing in the input. crash it and print an error.
-        if (!guess) {
-            document.getElementById("lineOne").innerHTML = "Random Number computer was thinking of between 1 and 100 was: <b>" + x + "</b></p> \n \n </p>";
-            document.getElementById("lineTwo").innerHTML = "User Canceled Game<br>Program Terminated Prematurely.";
-            break;
-        }
-        guess = Number(guess);
-        //tell user if correct
-        if (guess === x) {
-            alert("GOOD ON YOU !!! \n \n You correctly guessed I was thinking of the number: " + x + "\n \n It took you " + turns + " guesses.");
-            document.getElementById("lineOne").innerHTML = "Random Number computer was thinking of between 1 and 100 was: <b>" + x + "</b></p> \n \n <p>User guessed the value correctly using " + turns + " guesses. </p>";
-            document.getElementById("lineTwo").innerHTML = "Program Terminated Normally.";
-            break;
-        } else {
-            //define high / low if needed.
-            if (high === null || high === undefined){
-                var high = 100;
+    <h2>CS1011a Project Three : Guessing Game</h2>
+    <h3>Computer Gaming with JavaScript</h3>
+    <hr/>
+    <p>This is an HTML webpage that has JavaScript embedded inside.<br/> This will allow the user to play a simple game.</p>
+    <p>The computer will think of a number between 1 and 100 (inclusive)<br/> and the user will try to guess that number.</p>
+    <p>The user can quit the game at any time by simply selecting the &lt;Cancel&gt; button.</p>
+    <hr/>
+    <h4>RESULTS OF THE GUESSING GAME</h4>
+    <div id="lineOne"></div>
+    <div id="lineTwo"></div>
+    <script>
+        // set random value.
+        let x = Number(Math.floor(Math.random() * 100) + 1);
+        //set turns to 1
+        let turns = 1;
+        //create hint.
+        let hint = 'Enter your guess here. \n \n Enter a value between 1 and 100 (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
+        //set alert
+        alert("I am thinking of a number between 1 and 100 (inclusive)" + "\n" + "- In the next window enter your guess:" + "\n" + "\u00A0 ... and I will tell you if you are right" + "\n \u00A0 ... or if you have to go higher." + "\n \u00A0 ... or if you have to go lower." );
+        //start loop with impossible ending unless break.
+        while (turns > -1) {
+            let guess = prompt('GUESS NUMBER: ' + turns + ' \n' + hint);
+            //there's nothing in the input. crash it and print an error.
+            if (!guess) {
+                document.getElementById("lineOne").innerHTML = "Random Number computer was thinking of between 1 and 100 was: <b>" + x + "</b></p> \n \n </p>";
+                document.getElementById("lineTwo").innerHTML = "User Canceled Game<br>Program Terminated Prematurely.";
+                break;
             }
-            if (low === null || low === undefined){
-                var low = 1;
-            }
-            //low guess
-            //high guess
-            if (guess > x) {
-                if (guess <= high) {
-                    high = guess - 1;
-                    hint = ' \n You are too high. \n \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)\';';
-                    turns = turns + 1;
+            guess = Number(guess);
+            //tell user if correct
+            if (guess === x) {
+                alert("GOOD ON YOU !!! \n \n You correctly guessed I was thinking of the number: " + x + "\n \n It took you " + turns + " guesses.");
+                document.getElementById("lineOne").innerHTML = "Random Number computer was thinking of between 1 and 100 was: <b>" + x + "</b></p> \n \n <p>User guessed the value correctly using " + turns + " guesses. </p>";
+                document.getElementById("lineTwo").innerHTML = "Program Terminated Normally.";
+                break;
+            } else {
+                //define high / low if needed.
+                if (high === null || high === undefined){
+                    var high = 100;
                 }
-                else {
-                    hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
+                if (low === null || low === undefined){
+                    var low = 1;
+                }
+                //low guess
+                //high guess
+                if (guess > x) {
+                    if (guess <= high) {
+                        high = guess - 1;
+                        hint = ' \n You are too high. \n \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
+                        turns = turns + 1;
                     }
-                }
-            if (guess < x){
-                if (low <= guess) {
-                    low = guess + 1;
-                    hint = ' \n You are too low. \n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
-                    turns = turns + 1;
-                }
-                else {
-                    hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
+                    else {
+                        hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
+                        }
                     }
+                if (guess < x){
+                    if (low <= guess) {
+                        low = guess + 1;
+                        hint = ' \n You are too low. \n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
+                        turns = turns + 1;
+                    }
+                    else {
+                        hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
+                        }
+                    }
+                 if (!guess) {
+                    hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
                 }
-             if (!guess) {
-                hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
             }
         }
-    }
-</script>
-<hr/>
-<p>The above was generated by the JavaScript code.<br/>Now back to HTML<br/>We hope you enjoyed this demonstration.</p>
-[Brett Petch]
+    </script>
+    <hr/>
+    <p>The above was generated by the JavaScript code.<br/>Now back to HTML<br/>We hope you enjoyed this demonstration.</p>
+    [Brett Petch]
 </body>
 </html>
