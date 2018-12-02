@@ -50,13 +50,6 @@
                 var low = 1;
             }
             //low guess
-            if (guess < x){
-                if (low <= guess) {
-                    low = guess + 1;
-                    hint = ' \n You are too low. \n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
-                    turns = turns + 1;
-                }
-                }
             //high guess
             if (guess > x) {
                 if (guess <= high) {
@@ -64,9 +57,24 @@
                     hint = ' \n You are too high. \n \n MUST be a lower number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)\';';
                     turns = turns + 1;
                 }
+                else {
+                    hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
+                    }
+                }
+            if (guess < x){
+                if (low <= guess) {
+                    low = guess + 1;
+                    hint = ' \n You are too low. \n \n MUST be a higher number between ' + low + ' and ' + high + ' (inclusive). \n \n \u00A0 (select the \x3C OK \x3E button and I will tell you the result.) \n \n \u00A0 (Select \x3C Cancel \x3E to stop the game.)';
+                    turns = turns + 1;
+                }
+                else {
+                    hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
+                    }
+                }
+             if (!guess) {
+                hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";
             }
-            if (!guess) {hint = 'INCORRECT ENTRY!' + '\n \n MUST be a number and MUST be between ' + low + ' and ' + high + ". \n \n  Enter a value between " + low + " and " + high + " (inclusive). \n \n and I will tell you the result. \n \n ...that guess did not count.";}
-            }
+        }
     }
 </script>
 <hr/>
