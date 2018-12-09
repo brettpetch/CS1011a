@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/JSFunctions.js" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/JSFunctions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" beforeDir="false" afterPath="$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html" afterDir="false" />
-    </list>
+    <list default="true" id="865a2678-0e2e-43d7-991a-57b0bbb09655" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,11 +13,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
               <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1223">
+              <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+              <folding>
+                <element signature="e#9#15#1" expanded="true" />
+                <element signature="e#16#22#1" expanded="true" />
+                <element signature="e#9#15#1" expanded="true" />
+                <element signature="e#16#22#1" expanded="true" />
+                <element signature="e#10#16#1" expanded="true" />
+                <element signature="e#17#23#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-496">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -357,14 +377,7 @@
       <workItem from="1544057152032" duration="7000" />
       <workItem from="1544063942293" duration="1153000" />
       <workItem from="1544373878519" duration="489000" />
-      <workItem from="1544374547340" duration="291000" />
-    </task>
-    <task id="LOCAL-00003" summary="updare workspace">
-      <created>1537987027575</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1537987027575</updated>
+      <workItem from="1544374547340" duration="2423000" />
     </task>
     <task id="LOCAL-00004" summary="improve readability">
       <created>1537987459652</created>
@@ -702,11 +715,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543777515077</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Add &lt;noscript&gt; tags.">
+      <created>1544374887634</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1544374887634</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147504000" />
+    <option name="totallyTimeSpent" value="149636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -906,28 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-          <folding>
-            <element signature="e#9#15#1" expanded="true" />
-            <element signature="e#16#22#1" expanded="true" />
-            <element signature="e#9#15#1" expanded="true" />
-            <element signature="e#16#22#1" expanded="true" />
-            <element signature="e#10#16#1" expanded="true" />
-            <element signature="e#17#23#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/asn2/src/css/bpetch_ASN2_style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8694">
@@ -963,6 +961,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1223">
+          <caret line="59" column="48" lean-forward="true" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+          <folding>
+            <element signature="e#9#15#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#9#15#1" expanded="true" />
+            <element signature="e#16#22#1" expanded="true" />
+            <element signature="e#10#16#1" expanded="true" />
+            <element signature="e#17#23#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asn3/bpetch_ASN3_Project3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
